@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+
+  myapi-frontend:
+    container_name: myapi-frontend-prod
+    image: myapi-frontend:prod
+    ports:
+      - 1337:80
